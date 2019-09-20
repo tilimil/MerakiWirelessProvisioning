@@ -1,0 +1,12 @@
+{
+"api_key": "xxxx",
+"org_id": "xxx",
+"template_id": "x",
+"site_id" : "xxx",
+"tags" : ["tag1", "tag2"],
+"timezone" : "America/Los_Angeles",
+"network_name" : "xxx",
+"img_file" : "xxx",
+"anchor_lat" : 36.195668,
+"anchor_long" : -94.184893
+}
