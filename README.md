@@ -9,7 +9,8 @@ This wireless site provisioning tool is meant to automate the provisioning of a 
 
 
 ## Setup
-1.  Copy config.json.default to config.json and input the variable for your site:
+1.  Download [meraki.py](https://github.com/meraki/dashboard-api-python/blob/master/meraki.py) into the directory
+2.  Copy config.json.default to config.json and input the variable for your site:
     * api_key - Meraki API key
     * org_id - Meraki organization ID
     * template_id - network ID of the template network
@@ -20,9 +21,9 @@ This wireless site provisioning tool is meant to automate the provisioning of a 
     * img_file - floorplan image
     * anchor_lat - latitude of (0,0), bottom left corner of the building
     * anchor_long - longitude of (0,0), bottom left corner of the building
-2.  Download [meraki.py](https://github.com/meraki/dashboard-api-python/blob/master/meraki.py) into the directory
-3.  Put floorplan image into this directory
-4.  Edit sample workseet.xlsx with your AP/switch device data.  Make sure that any rf_profile you use for AP's already exist in the template network.
+3.  Edit sample workseet.xlsx with your AP/switch device data.  Make sure that any rf_profile you use for AP's already exist in the template network.
+4.  Put floorplan image into this directory
+
 
 ## Usage
 python3 ProvisionSite.py
